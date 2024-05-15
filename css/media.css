@@ -1,0 +1,47 @@
+@media (max-width:800px) {
+    .hamburger {
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+}
+
+@media (max-width:990px) {
+    .s2flex{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .information {
+        border: 1px red dotted;
+        margin-right: 30px;
+    }
+    .cardebi {
+        margin-left: 0px;
+        width: 50%;
+    }
+    .card {
+        border: 1px red dotted;
+        margin-bottom: 25px;
+    }
+    .card  img{
+        width: 50%;
+    }
+    .card p {
+        font-size: 12px;
+    }
+    .card h4 {
+        font-size: 15px;
+    }
+
+    .information h2 {
+        font-size: 14px;
+    }
+    .information h5 {
+        font-size: 22px;
+    }
+    .information p {
+        font-size: 16px;
+    }
+
+}
